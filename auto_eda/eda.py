@@ -1,19 +1,17 @@
 import pandas as pd
 
 def data_summary(df):
-    """Generate a summary of the DataFrame."""
-    return pd.DataFrame({
-        'Data Type': df.dtypes,
-        'Non-null Count': df.notnull().sum(),
-        'Unique Count': df.nunique(),
+    # Ensure the 'Data Type' column is being created based on actual data types
+    summary = {
         'Mean': df.mean(),
-        'Std': df.std(),
+        'Median': df.median(),
+        'Std Dev': df.std(),
         'Min': df.min(),
-        '25%': df.quantile(0.25),
-        '50%': df.median(),
-        '75%': df.quantile(0.75),
-        'Max': df.max()
-    })
+        'Max': df.max(),
+        'Data Type': df.dtypes  # This should give you the data type of each column
+    }
+    return pd.DataFrame(summary)
+
 
 def missing_values(df):
     """Identify missing values in the DataFrame."""

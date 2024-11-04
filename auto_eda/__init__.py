@@ -5,7 +5,7 @@ from .visualization import (
     plot_histogram, 
     plot_3d_scatter
 )
-from .anomaly_detection import (
+from .anamoly_detection import (
     detect_outliers_zscore, 
     detect_outliers_isolation_forest
 )

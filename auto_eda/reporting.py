@@ -25,4 +25,3 @@ def generate_custom_report(df, output_file='report.html'):
 
     print(f"Report generated: {output_file}")
 
-# Optionally, you can test the reporting functionality here or keep it in a separate test file.
