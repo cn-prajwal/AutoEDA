@@ -1,6 +1,6 @@
 # Auto-EDA
 
-![image](https://github.com/user-attachments/assets/9995d7fb-4515-4664-a810-a8e2047d92f2)
+![image](https://github.com/user-attachments/assets/654a7dcf-97c1-4f48-b69c-daad1e95eb91)
 
 ## Overview
 **Auto-EDA** is a Python library designed to streamline the exploratory data analysis (EDA) process, providing automated and user-friendly tools for summarizing, visualizing, detecting anomalies, and engineering features in datasets. This library is ideal for data analysts and data scientists looking for quick insights into their data without having to write repetitive EDA code.
